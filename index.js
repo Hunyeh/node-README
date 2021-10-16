@@ -27,12 +27,17 @@ const promptUser = () => {
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any: ",
+            message: "What steps are required to install your project? ",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is this project useful for?"
+            message: "Provide instructions on how this project is used: "
+        },
+        {
+            type: "input",
+            name: "credits",
+            message: "List your collaborators, if any, with links to their GitHub profiles: "
         },
         {
             type: "list",
@@ -44,22 +49,19 @@ const promptUser = () => {
                 "Eclipse",
                 "GNU GPL v3",
                 "MIT",
+                "none"
             ]
         },
         {
             type: "input",
-            name: "contribution",
-            message: "Who are the contributors of this projects?"
+            name: "contributing",
+            message: "If you would like other develops to add to this project, list guidelines:"
         },
         {
-            type: "input",
+            type: "confirm",
             name: "tests",
-            message: "Is there a test included?"
-        },
-        {
-            type: "input",
-            name: "questions",
-            message: "What do I do if I have an issue? "
+            message: "Is there a test included?",
+            default: false
         },
         {
             type: "input",
@@ -105,7 +107,6 @@ const writeToFile = (fileName, data) => {
         });
     });
 };
-
 
 // TODO: Create a function to initialize app
 const init = () => {
