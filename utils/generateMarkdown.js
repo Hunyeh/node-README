@@ -34,7 +34,7 @@ const renderLicenseSection = license => {
     return ''
   } 
   return `## License
-  ${license.license}`
+  ${license}`
 };
 
 // TODO: Create a function to generate markdown for README
@@ -57,9 +57,9 @@ ${renderLicenseLink(data.license)}
 ## Installation Instructions
 ${data.installation}
 
-## Usage Info
+## Usage
 ${data.usage}
-![alt text](assets/images/screenshot.png)
+![alt text](images/screenshot.JPG)
 
 ## Credits
 ${data.credits} 

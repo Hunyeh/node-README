@@ -14,7 +14,7 @@ const promptUser = () => {
                 if (titleInput) {
                     return true;
                 } else {
-                    console.log('Please enter github username!');
+                    console.log('Please enter your project name!');
                     return false;
                 }
             }
@@ -115,7 +115,7 @@ const init = () => {
 
         writeToFile('./README.md', readMeData)
     })
-}
+};
 
 // Function call to initialize app
 init();
