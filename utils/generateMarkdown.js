@@ -54,7 +54,7 @@ ${renderLicenseLink(data.license)}
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation Instructions
+## Installation 
 ${data.installation}
 
 ## Usage
@@ -66,7 +66,7 @@ ${data.credits}
 
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## Contribution
 ${data.contributing}
 
 ## Tests

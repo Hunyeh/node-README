@@ -1,8 +1,8 @@
 # node-README
-[![GitHub license](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+[![GitHub license: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
-This project allows the user to generate a README while only using the command line. The user will answer various questions and provide certain information throughout.
+Allows the user to generate a README file using only the command line.
 
 ## Table of Contents  
 * [Installation](#installation)
@@ -13,21 +13,21 @@ This project allows the user to generate a README while only using the command l
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation Instructions
-To install this project you must clone the project to your local computer and run the project in the command line usine Node.js.
+## Installation 
+Go to my github account and clone my repo to your local computer.
 
 ## Usage
-Simply follow the prompt as you go.
-![alt text](images/screenshot.JPG)
+Simply follow the command line questions after entering "node index".
+<!-- ![alt text](images/screenshot.JPG) -->
 
 ## Credits
 none 
 
 ## License
-  Eclipse
+  GNU GPL v3
 
-## Contributing
-
+## Contribution
+no
 
 ## Tests
 false
